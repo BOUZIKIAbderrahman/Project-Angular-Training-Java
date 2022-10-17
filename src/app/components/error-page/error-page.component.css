@@ -1,0 +1,16 @@
+/* 404 Not found page */
+@import url("../../../assets/css//utilities.css");
+.error-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.error-message img {
+  max-width: 70%;
+}
+
+.error-message h2 {
+  font-size: 1rem;
+}

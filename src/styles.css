@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg1: #FFF6FB;
+  --bg2: #F1F0FF;
+  --bg3: #EEEFFB;
+  --black: #000000;
+  --primary: #2F1AC4;
+  --secondary: #7E33E0;
+  --accentP: #FB2E86;
+  --accentG: #08D15F;
+}
+a{
+  color: #f1f1f1;
+  text-decoration: none;
+}
+/* /////////////////////////////////////////// */
+
+
+

@@ -1,0 +1,286 @@
+<!-- HERO SECTION -->
+<div class="hero-section">
+  <div class="hero-contents">
+    <!-- HERO SECTION LEFT -->
+    <img src="../../assets/images/HeroLemp.png" alt="" class="hero-lamp" />
+    <div class="hero-floating-dot"></div>
+    <div class="carousel-nav">
+      <span class="carousel-button carousel-button-selected"></span>
+      <span class="carousel-button"></span>
+      <span class="carousel-button"></span>
+    </div>
+    <div class="hero-left">
+      <P class="hero-left-slogan"> Best Furniture For Your Castle....</P>
+      <h1 class="hero-left-heading">
+        New Furniture Collection<br />
+        Trends in 2022
+      </h1>
+      <p class="hero-left-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
+        adipiscing in phasellus non in justo.
+      </p>
+      <!-- HERO SECTION CTA BUTTON -->
+      <button class="hero-left-cta">Shop Now</button>
+    </div>
+    <!-- HERO SECTION RIGHT -->
+    <div class="hero-right">
+      <!-- HERO IMAGE BACKGROUNDS -->
+      <div class="hero-right-bg-one">
+        <div class="hero-right-bg-two">
+          <!-- HERO IMAGE -->
+          <img
+            src="../../assets/images/OneSeaterSofa.png"
+            alt=""
+            class="hero-right-img"
+          />
+        </div>
+      </div>
+      <!-- HERO DISCOUNT BADGE -->
+      <div class="hero-right-sale-badge">
+        <h5 class="hero-right-sale-badge-text">
+          50%<br />
+          Off
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="latest">
+  <div class="latest-contents">
+    <h1 class="latest-section-heading">Latest Products</h1>
+
+    <div class="latest-cards">
+      <div class="latest-card-regular" *ngFor="let item of latestproducts">
+        <div class="latest-card-contents">
+          <div class="latest-card-photo">
+            <img
+              src="{{ item.thumbnail }}"
+              alt="latesting products photo"
+              class="latest-card-img"
+            />
+          </div>
+          <div class="latest-card-texts">
+            <p class="latest-card-name">{{ item.title }}</p>
+            <div class="latest-card-amounts">
+              <p class="latest-card-price">{{ item.price }}</p>
+              <p class="latest-card-discount">{{ item.discountPercentage }}</p>
+            </div>
+          </div>
+          <div class="latest-card-badge">
+            <P class="latest-card-badge-text">Sale</P>
+          </div>
+          <div class="latest-card-buttons">
+            <button title="cart" class="latest-card-btn">
+              <img src="../../assets/icons/card-cart.png" alt="" />
+            </button>
+            <button title="heart" class="latest-card-btn">
+              <img src="../../assets/icons/heart-purple.png" alt="" />
+            </button>
+            <button title="zoom" class="latest-card-btn">
+              <img src="../../assets/icons/zoom-in.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="shoppex">
+  <div class="shoppex-contents">
+    <h1 class="shoppex-section-heading">What Shopex Offer!</h1>
+
+    <div class="shoppex-cards">
+      <div class="shoppex-card-regular">
+        <div class="shoppex-card-contents">
+          <img
+            src="../../assets/images/freeDelivery.png"
+            alt="shoppex offer photo"
+            class="shoppex-card-img"
+          />
+          <p class="shoppex-card-name">24/7 Support</p>
+          <p class="shoppex-card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
+            gravida.
+          </p>
+        </div>
+      </div>
+      <div class="shoppex-card-regular">
+        <div class="shoppex-card-contents">
+          <img
+            src="../../assets/images/cashback.png"
+            alt="shoppex offer photo"
+            class="shoppex-card-img"
+          />
+          <p class="shoppex-card-name">24/7 Support</p>
+          <p class="shoppex-card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
+            gravida.
+          </p>
+        </div>
+      </div>
+      <div class="shoppex-card-regular">
+        <div class="shoppex-card-contents">
+          <img
+            src="../../assets/images/premiumQuality.png"
+            alt="shoppex offer photo"
+            class="shoppex-card-img"
+          />
+          <p class="shoppex-card-name">24/7 Support</p>
+          <p class="shoppex-card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
+            gravida.
+          </p>
+        </div>
+      </div>
+      <div class="shoppex-card-regular">
+        <div class="shoppex-card-contents">
+          <img
+            src="../../assets/images/24support.png"
+            alt="shoppex offer photo"
+            class="shoppex-card-img"
+          />
+          <p class="shoppex-card-name">24/7 Support</p>
+          <p class="shoppex-card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
+            gravida.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="feature-section">
+  <div class="feature-section-contents">
+    <div class="feature-section-left">
+      <div class="feature-section-photo">
+        <img
+          src="../../assets/images/ClubSofaChair.png"
+          alt=""
+          class="feature-section-img"
+        />
+      </div>
+    </div>
+
+    <div class="feature-section-right">
+      <div class="feature-section-texts">
+        <h1 class="feature-section-heading">
+          Unique Features Of leatest & Trending Poducts
+        </h1>
+        <ul class="feature-list">
+          <li class="feature-list-item feature-list-item-a">
+            All frames constructed with hardwood solids and laminates
+          </li>
+          <li class="feature-list-item feature-list-item-b">
+            Reinforced with double wood dowels, glue, screw - nails corner
+            <br />blocks and machine nails
+          </li>
+          <li class="feature-list-item feature-list-item-c">
+            Arms, backs and seats are structurally reinforced
+          </li>
+        </ul>
+      </div>
+      <div class="feature-section-action">
+        <div class="feature-section-cta">
+          <button class="feature-section-cta-btn">Add to Cart</button>
+          <div class="feature-section-product">
+            <p class="feature-section-product-name">B&B Italian Sofa</p>
+            <p class="feature-section-product-price">$32.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="trend">
+  <div class="trend-contents">
+    <h1 class="trend-section-heading"><strong>Trending Products</strong></h1>
+
+    <div class="trend-cards">
+      <div class="trend-card-regular">
+        <div class="trend-card-contents" *ngFor="let item of trendingProducts">
+          <div class="trend-card-photo">
+            <img
+              src="{{ item.thumbnail }}"
+              alt="trending products photo"
+              class="trend-card-img"
+            />
+          </div>
+          <div class="trend-card-texts">
+            <p class="trend-card-name">{{ item.title }}</p>
+            <div class="trend-card-amounts">
+              <p class="trend-card-price">{{ item.price }}</p>
+              <p class="trend-card-discount">{{ item.discountPercentage }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="trend-offer-cards">
+      <div class="trend-offer-card trend-offer-card-one">
+        <div class="trend-offer-one-texts">
+          <p class="trend-offer-one-heading">23% off in all products</p>
+          <a href="#" class="trend-offer-one-link">Shop Now</a>
+        </div>
+        <img
+          src="../../assets/images/offer-clock.png"
+          class="trend-offer-one-img"
+          alt=""
+        />
+      </div>
+      <div class="trend-offer-card trend-offer-card-two">
+        <div class="trend-offer-two-texts">
+          <p class="trend-offer-two-heading">23% off in all products</p>
+          <a href="#" class="trend-offer-two-link">View Collection</a>
+        </div>
+        <img
+          src="../../assets/images/offer-table.png"
+          class="trend-offer-two-img"
+          alt=""
+        />
+      </div>
+
+      <div class="trend-offer-three">
+        <div class="trend-offer-products">
+          <div class="trend-offer-product-photo">
+            <img
+              src="../../assets/images/executiveSeat1.png"
+              alt=""
+              class="trend-offer-product-img"
+            />
+          </div>
+          <div class="trend-offer-product-texts">
+            <p class="trend-offer-product-name">Executive Seat chair</p>
+            <p class="trend-offer-product-price">$32.00</p>
+          </div>
+        </div>
+        <div class="trend-offer-products">
+          <div class="trend-offer-product-photo">
+            <img
+              src="../../assets/images/executiveSeat2.png"
+              alt=""
+              class="trend-offer-product-img"
+            />
+          </div>
+          <div class="trend-offer-product-texts">
+            <p class="trend-offer-product-name">Executive Seat chair</p>
+            <p class="trend-offer-product-price">$32.00</p>
+          </div>
+        </div>
+        <div class="trend-offer-products">
+          <div class="trend-offer-product-photo">
+            <img
+              src="../../assets/images/executiveSeat3.png"
+              alt=""
+              class="trend-offer-product-img"
+            />
+          </div>
+          <div class="trend-offer-product-texts">
+            <p class="trend-offer-product-name">Executive Seat chair</p>
+            <p class="trend-offer-product-price">$32.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,26 @@
+.footer-bottom {
+  background-color: #E7E4F8;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1171px;
+}
+
+.footer-bottom-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-copyRight-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9DA0AE;
+}

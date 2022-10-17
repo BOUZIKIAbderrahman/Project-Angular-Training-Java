@@ -1,0 +1,67 @@
+
+<!-- shop grid -->
+<section class="shop-grid">
+  <div class="container">
+    <div class="header">
+      <div class="left">
+        <h2 class="blue-text">Ecommerce Accesories & Fashion item</h2>
+        <p class="grey-text">About (,620 results (0.62 seconds)</p>
+      </div>
+
+      <div class="right">
+        <form>
+          <label>Per Page:</label>
+          <input type="text" />
+        </form>
+        <form>
+          <label>Sort By:</label>
+          <select name="" id="">
+            <option value="">Best Match</option>
+            <option value="">Price</option>
+          </select>
+        </form>
+        <form>
+          <label>View:</label>
+          <i class="fas fa-list"></i>
+        </form>
+      </div>
+    </div>
+    <div class="grid-wrapper" *ngIf="loaded">
+      <a
+        href="./product details.html"
+        *ngFor="let product of products"
+        routerLink="/details/{{ product.id }}/{{ product.category }}"
+      >
+        <div class="soft-card">
+          <div class="thumbnail">
+            <img src="{{ product.thumbnail }}" alt="" />
+          </div>
+          <div class="description">
+            <h3 class="blue-text">{{ product.title }}</h3>
+            <div class="price">
+              <p class="blue-text">${{ product.price }}</p>
+              <p class="pink-text line-through">
+                ${{ product.discountPercentage }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="grid-wrapper" *ngIf="!loaded">
+      <img
+        src="assets/images/Loading_icon.gif"
+        alt=""
+        style="height: 250px; width: 550px"
+      />
+    </div>
+  </div>
+</section>
+<!-- Sponsors -->
+<section class="sponsors">
+  <div class="container">
+    <div class="flex">
+      <img src="assets/img/image 1174.png" alt="" />
+    </div>
+  </div>
+</section>
